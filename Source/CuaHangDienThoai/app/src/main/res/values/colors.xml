@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#0909b4</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#e0e2f1</color>
+    <!-- background color -->
+    <color name="mainBgColor">#d6dbe1</color>
+    <color name="hideBgColor">#cacaca</color>
+    <color name="listBgColor">#ffffff</color>
+    <color name="accentBgColor">@color/colorAccent</color>
+    <color name="mainBgColor2">#7faec9</color>
+    <color name="toolbarBgColor">@color/colorAccent</color>
+    <color name="white">@color/listBgColor</color>
+    <color name="dark_gray">@color/hideBgColor</color>
+
+    <!-- text color -->
+    <color name="mainTextColor">#1e2f41</color>
+    <color name="whiteTextColor">#ffffff</color>
+    <color name="accentTextColor">@color/colorAccent</color>
+</resources>

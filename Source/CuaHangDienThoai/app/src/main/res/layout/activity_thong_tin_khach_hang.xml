@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2a2296"
+    tools:context=".activity.ThongTinKhachHang">
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginTop="80dp"
+    android:layout_marginBottom="80dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/boderkhachhang"
+    android:layout_width="match_parent"
+    android:layout_height="480dp">
+    <TextView
+        android:text="Thông tin khách hàng"
+        android:textSize="30sp"
+        android:textColor="#131313"
+        android:textStyle="bold"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_margin="5dp"
+            android:hint="Nhập tên"
+            android:inputType="text"
+            android:id="@+id/edittexttenKH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_margin="5dp"
+            android:hint="Nhập số điện thoại"
+            android:inputType="phone"
+            android:id="@+id/edittextsdtKH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_margin="5dp"
+            android:hint="Nhập email "
+            android:inputType="textEmailAddress"
+            android:id="@+id/edittextemailKH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_margin="5dp"
+            android:hint="Nhập địa chỉ "
+            android:inputType="textEmailAddress"
+            android:id="@+id/edittextdiachiKH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginRight="70dp"
+            android:text="Xác nhận"
+            android:id="@+id/btnxacnhan"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="#131313"
+            android:background="#76c3e7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Trở về"
+            android:id="@+id/btntrove"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="#131313"
+            android:background="#76c3e7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

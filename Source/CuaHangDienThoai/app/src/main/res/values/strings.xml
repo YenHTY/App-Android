@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HoLy Store</string>
+    <string name="title_activity_thong_tin">Map</string>
+    <string name="btnLogin"> Login Admin </string>
+    <string name="hintUsername">Tên đăng nhập</string>
+    <string name="hintPassWord">Mật khẩu</string>
+</resources>

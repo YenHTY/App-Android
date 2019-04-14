@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AdminActivity"
+    android:orientation="vertical"
+    android:weightSum="10"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:id="@+id/imageviewTrangChinh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:src="@drawable/home" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:background="@drawable/bo_tron"
+
+            android:gravity="center">
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:gravity="center"
+                android:text="Admin"
+                android:textColor="#23f5d5"
+                android:textSize="30sp"
+
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="10"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:weightSum="10"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:background="@color/mainBgColor"
+                android:id="@+id/textViewDonHangQL"
+                android:text="Đơn Hàng"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:background="@color/mainBgColor"
+                android:id="@+id/textViewThemSP"
+                android:text="Thêm sản phẩm"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            >
+            <ListView
+
+                android:id="@+id/listViewThongKeQL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
